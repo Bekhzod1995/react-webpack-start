@@ -1,7 +1,7 @@
 {
   "name": "react-webpack-starter",
   "version": "1.0.0",
-  "description": "Bolierplate for React apps",
+  "description": "Boilerplate for React apps",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
