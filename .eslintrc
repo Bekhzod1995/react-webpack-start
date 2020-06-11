@@ -1,6 +1,6 @@
 {
     "parser": "babel-eslint",
-    "extends": "react",
+    "extends": ["plugin:react/recommended", "airbnb-base"],
     "env": {
         "browser": true,
         "node": true
@@ -9,5 +9,20 @@
         "react": {
             "version": "detect"
         }
+    },
+    "rules": {
+        // "semi": ["error", "always"],
+        // "indent": ["error", 2],
+        "react/prop-types": 0,
+        // "camelcase": [2, {"properties": "always"}]
+        // "quotes": ["single"]
+        "linebreak-style": ["error", "windows"],
+        "no-console": 0,
+        "no-unresolved": 0,
+        "import/no-unresolved": 0,
+        "import/extensions": 0,
+        "class-methods-use-this": 0,
+        "react/no-string-refs": 0,
+        "react/display-name": 0
     }
 }
